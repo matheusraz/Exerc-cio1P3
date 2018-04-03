@@ -16,6 +16,7 @@ public class PreferenciasActivity extends Activity {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+            addPreferencesFromResource(R.xml.preferencias);
         }
     }
 }
